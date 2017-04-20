@@ -1,0 +1,92 @@
+Game Physics Test                          Name: ______________________________
+
+
+Use intersects.py for questions 1 - 6.
+
+1. Consider a rectangle with corners at (12, 6) and (5, 17). How would this
+   rectangle be represented as a list to be passed to functions in the intersects
+   module?
+
+2. Consider a rectangle defined as [4, 9, 17, 11]. What are the coordinates of
+   all 4 vertices of the rectangle?
+
+
+3. Consider a circle bounded by the rectangle with an upper left corner at (5, 8)
+   and a lower right corner at (15, 18). How would this circle be represented as
+   a list to be passed to functions in the intersects module?
+
+
+4. Do the circles defined by the lists [5, 10, 4] and [9, 17, 3] intersect?
+   Show work to justify your answer.
+
+
+5. Demonstrate how the square root of 29 can be calculated by hand. Your answer
+   should be accurate to two decimal places.
+
+
+6. We say that calculating square roots is an 'expensive' operation. Explain
+   what 'expensive' means in this context. What is an example of an 'inexpensive'
+   operation? Show work to demonstrate why this operation is inexpensive.
+
+
+Use space_game.py to answer questions 7 - 18.
+
+7. What are the dimensions of the screen in space_game.py?
+
+
+8. What is the height of the top edge of the moon surface?
+
+
+9. What is the x-value of the right edge of the spaceman when it first appears
+   on the screen?
+
+
+10. What is the gravitational acceleration in space_game.py?
+
+
+11. As the block falls, what is the velocity after 5 iterations of the game
+      loop. Show how you calculated this value.
+
+12. Assuming no keyboard input is given when the game starts, what is the list
+    returned by player.get_rect() when the astronaut lands on the Moon's surface?
+
+
+13. What is the horizontal velocity of the block when the right arrow is
+    pressed? Where is this value defined?
+
+
+14. Move the astronaut to the right edge of the screen. After the edge collision
+    is resolved, what list will define the rectangle.
+
+
+15. In the configuration section, the JUMP_POWER is set to a positive value. Why
+    does a positive value make the jumping block move up? In your explanation,
+    identify where the jump power is applied and relate this to the coordinate
+    plane in Pygame.
+
+
+16. After a jump, how many iterations of the game loop will occur before the
+    player starts moving downward? Explain how you determined this value.
+
+
+17. What will the y-velocity be at the moment a player completes the jump and
+    hits the ground again?
+
+
+The rest of the problems are not based on space_game.py code.
+
+18. Consider a square block with a side length of 4 and a circle with radius 5.
+   When the two objects intersect, the object with the larger area will absorb
+   the smaller. Which object is larger? Show work.
+
+
+19. Give the dimensions of the larger object in problem 19 after it completely
+    absorbs the area of the smaller. Show work.
+
+
+20. Suppose you are making an underwater Mario type level for a game.
+    Explain how variables such as GRAVITY, H_SPEED, TERMINAL_VELOCITY,
+    and JUMP_POWER would be different than a game played on the
+    surface of Earth. (Space Game does not incorporate terminal velocity because
+    there is no atmosphere on the Moon, so compare to another version
+    of the game.)
